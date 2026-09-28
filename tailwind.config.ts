@@ -1,0 +1,2 @@
+import type { Config } from 'tailwindcss'
+export default { content:['./app/**/*.tsx','./components/**/*.tsx'], theme:{extend:{colors:{navy:'#0D100E',ink:'#141816',paper:'#F0F2EE',brand:{DEFAULT:'#2E6B49',soft:'#E1ECE4',dark:'#1F5136',bright:'#8FC49D'}},fontFamily:{sans:['var(--font-sans)','system-ui','sans-serif'],display:['var(--font-display)','var(--font-sans)','system-ui','sans-serif']}}}, plugins:[] } satisfies Config

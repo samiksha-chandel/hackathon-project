@@ -1,0 +1,590 @@
+{
+ "oems": [
+  "Tata Motors",
+  "Mahindra Electric",
+  "MG Motor India",
+  "Ola Electric"
+ ],
+ "batches": [
+  {
+   "id": "EX30_2021",
+   "model": "EX30",
+   "oem": "Tata Motors",
+   "chem": "Nickel-manganese-cobalt",
+   "my": 2021,
+   "sy": 2024,
+   "units": 14044,
+   "unitKg": 119.0,
+   "capKwh": 23.8,
+   "region": "North",
+   "rate": 0.02,
+   "eolYear": 2029,
+   "mats": {
+    "Nickel": 0.12,
+    "Cobalt": 0.05,
+    "Lithium": 0.02,
+    "Manganese": 0.04,
+    "Copper": 0.1,
+    "Aluminium": 0.06
+   },
+   "lowValue": false,
+   "brand": "Volvo"
+  },
+  {
+   "id": "SL03_2015",
+   "model": "SL03",
+   "oem": "Ola Electric",
+   "chem": "Lithium-sulfur",
+   "my": 2015,
+   "sy": 2024,
+   "units": 635,
+   "unitKg": 198.0,
+   "capKwh": 69.3,
+   "region": "West",
+   "rate": 0.077,
+   "eolYear": 2025,
+   "mats": {
+    "Nickel": 0.12,
+    "Cobalt": 0.05,
+    "Lithium": 0.02,
+    "Manganese": 0.04,
+    "Copper": 0.1,
+    "Aluminium": 0.06
+   },
+   "lowValue": false,
+   "brand": "Changan"
+  },
+  {
+   "id": "Grecale Folgore_2020",
+   "model": "Grecale Folgore",
+   "oem": "MG Motor India",
+   "chem": "Lithium-iron phosphate",
+   "my": 2020,
+   "sy": 2024,
+   "units": 7142,
+   "unitKg": 165.6,
+   "capKwh": 26.5,
+   "region": "South",
+   "rate": 0.024,
+   "eolYear": 2032,
+   "mats": {
+    "Lithium": 0.035,
+    "Copper": 0.1,
+    "Aluminium": 0.07,
+    "Iron": 0.2
+   },
+   "lowValue": true,
+   "brand": "Maserati"
+  },
+  {
+   "id": "Avenger_2020",
+   "model": "Avenger",
+   "oem": "Mahindra Electric",
+   "chem": "Nickel-metal hydride",
+   "my": 2020,
+   "sy": 2024,
+   "units": 12997,
+   "unitKg": 1411.4,
+   "capKwh": 98.8,
+   "region": "East",
+   "rate": 0.06,
+   "eolYear": 2028,
+   "mats": {
+    "Nickel": 0.35,
+    "Cobalt": 0.03,
+    "Iron": 0.15
+   },
+   "lowValue": false,
+   "brand": "Seat"
+  },
+  {
+   "id": "Lucid Air_2024",
+   "model": "Lucid Air",
+   "oem": "Mahindra Electric",
+   "chem": "Lithium-titanate",
+   "my": 2024,
+   "sy": 2024,
+   "units": 12142,
+   "unitKg": 1422.2,
+   "capKwh": 128.0,
+   "region": "North",
+   "rate": 0.006,
+   "eolYear": 2039,
+   "mats": {
+    "Lithium": 0.035,
+    "Copper": 0.1,
+    "Aluminium": 0.07,
+    "Iron": 0.2
+   },
+   "lowValue": true,
+   "brand": "Lucid Motors"
+  },
+  {
+   "id": "MG5 EV_2015",
+   "model": "MG5 EV",
+   "oem": "Tata Motors",
+   "chem": "Calcium-ion",
+   "my": 2015,
+   "sy": 2024,
+   "units": 8850,
+   "unitKg": 497.3,
+   "capKwh": 74.6,
+   "region": "West",
+   "rate": 0.077,
+   "eolYear": 2025,
+   "mats": {
+    "Copper": 0.08,
+    "Aluminium": 0.1,
+    "Iron": 0.15
+   },
+   "lowValue": true,
+   "brand": "MG"
+  },
+  {
+   "id": "FF 91_2022",
+   "model": "FF 91",
+   "oem": "Ola Electric",
+   "chem": "Nickel-cobalt-aluminum",
+   "my": 2022,
+   "sy": 2024,
+   "units": 12418,
+   "unitKg": 651.7,
+   "capKwh": 149.9,
+   "region": "South",
+   "rate": 0.028,
+   "eolYear": 2030,
+   "mats": {
+    "Nickel": 0.12,
+    "Cobalt": 0.05,
+    "Lithium": 0.02,
+    "Manganese": 0.04,
+    "Copper": 0.1,
+    "Aluminium": 0.06
+   },
+   "lowValue": false,
+   "brand": "Faraday Future"
+  },
+  {
+   "id": "Ariya_2020",
+   "model": "Ariya",
+   "oem": "MG Motor India",
+   "chem": "Nickel-metal hydride",
+   "my": 2020,
+   "sy": 2024,
+   "units": 13317,
+   "unitKg": 1191.4,
+   "capKwh": 83.4,
+   "region": "East",
+   "rate": 0.06,
+   "eolYear": 2028,
+   "mats": {
+    "Nickel": 0.35,
+    "Cobalt": 0.03,
+    "Iron": 0.15
+   },
+   "lowValue": false,
+   "brand": "Nissan"
+  },
+  {
+   "id": "Revuelto (PHEV)_2022",
+   "model": "Revuelto (PHEV)",
+   "oem": "MG Motor India",
+   "chem": "Flow batteries",
+   "my": 2022,
+   "sy": 2024,
+   "units": 13942,
+   "unitKg": 3026.7,
+   "capKwh": 90.8,
+   "region": "North",
+   "rate": 0.028,
+   "eolYear": 2032,
+   "mats": {
+    "Copper": 0.08,
+    "Aluminium": 0.1,
+    "Iron": 0.15
+   },
+   "lowValue": true,
+   "brand": "Lamborghini"
+  },
+  {
+   "id": "Lanzador (upcoming EV)_2020",
+   "model": "Lanzador (upcoming EV)",
+   "oem": "Mahindra Electric",
+   "chem": "Lithium-titanate",
+   "my": 2020,
+   "sy": 2024,
+   "units": 9060,
+   "unitKg": 1466.7,
+   "capKwh": 132.0,
+   "region": "West",
+   "rate": 0.018,
+   "eolYear": 2035,
+   "mats": {
+    "Lithium": 0.035,
+    "Copper": 0.1,
+    "Aluminium": 0.07,
+    "Iron": 0.2
+   },
+   "lowValue": true,
+   "brand": "Lamborghini"
+  },
+  {
+   "id": "Wagoneer S_2016",
+   "model": "Wagoneer S",
+   "oem": "Tata Motors",
+   "chem": "Calcium-ion",
+   "my": 2016,
+   "sy": 2024,
+   "units": 16085,
+   "unitKg": 301.3,
+   "capKwh": 45.2,
+   "region": "South",
+   "rate": 0.07,
+   "eolYear": 2026,
+   "mats": {
+    "Copper": 0.08,
+    "Aluminium": 0.1,
+    "Iron": 0.15
+   },
+   "lowValue": true,
+   "brand": "Jeep"
+  },
+  {
+   "id": "Cybertruck_2019",
+   "model": "Cybertruck",
+   "oem": "Ola Electric",
+   "chem": "Nickel-manganese-cobalt",
+   "my": 2019,
+   "sy": 2024,
+   "units": 1756,
+   "unitKg": 411.0,
+   "capKwh": 82.2,
+   "region": "East",
+   "rate": 0.028,
+   "eolYear": 2027,
+   "mats": {
+    "Nickel": 0.12,
+    "Cobalt": 0.05,
+    "Lithium": 0.02,
+    "Manganese": 0.04,
+    "Copper": 0.1,
+    "Aluminium": 0.06
+   },
+   "lowValue": false,
+   "brand": "Tesla"
+  },
+  {
+   "id": "E-Transit_2016",
+   "model": "E-Transit",
+   "oem": "Ola Electric",
+   "chem": "Lithium-iron phosphate",
+   "my": 2016,
+   "sy": 2024,
+   "units": 10006,
+   "unitKg": 221.2,
+   "capKwh": 35.4,
+   "region": "North",
+   "rate": 0.04,
+   "eolYear": 2028,
+   "mats": {
+    "Lithium": 0.035,
+    "Copper": 0.1,
+    "Aluminium": 0.07,
+    "Iron": 0.2
+   },
+   "lowValue": true,
+   "brand": "Ford"
+  },
+  {
+   "id": "Hummer EV Pickup_2024",
+   "model": "Hummer EV Pickup",
+   "oem": "MG Motor India",
+   "chem": "Lithium-titanate",
+   "my": 2024,
+   "sy": 2024,
+   "units": 14762,
+   "unitKg": 365.6,
+   "capKwh": 32.9,
+   "region": "West",
+   "rate": 0.006,
+   "eolYear": 2039,
+   "mats": {
+    "Lithium": 0.035,
+    "Copper": 0.1,
+    "Aluminium": 0.07,
+    "Iron": 0.2
+   },
+   "lowValue": true,
+   "brand": "GMC"
+  },
+  {
+   "id": "Celestiq_2019",
+   "model": "Celestiq",
+   "oem": "Mahindra Electric",
+   "chem": "Lithium-ion",
+   "my": 2019,
+   "sy": 2024,
+   "units": 13930,
+   "unitKg": 278.3,
+   "capKwh": 50.1,
+   "region": "South",
+   "rate": 0.049,
+   "eolYear": 2029,
+   "mats": {
+    "Nickel": 0.12,
+    "Cobalt": 0.05,
+    "Lithium": 0.02,
+    "Manganese": 0.04,
+    "Copper": 0.1,
+    "Aluminium": 0.06
+   },
+   "lowValue": false,
+   "brand": "Cadillac"
+  },
+  {
+   "id": "Grecale Folgore_2025",
+   "model": "Grecale Folgore",
+   "oem": "Tata Motors",
+   "chem": "Nickel-metal hydride",
+   "my": 2025,
+   "sy": 2024,
+   "units": 9964,
+   "unitKg": 378.6,
+   "capKwh": 26.5,
+   "region": "East",
+   "rate": 0.01,
+   "eolYear": 2033,
+   "mats": {
+    "Nickel": 0.35,
+    "Cobalt": 0.03,
+    "Iron": 0.15
+   },
+   "lowValue": false,
+   "brand": "Maserati"
+  },
+  {
+   "id": "G9_2023",
+   "model": "G9",
+   "oem": "Tata Motors",
+   "chem": "Lead-acid",
+   "my": 2023,
+   "sy": 2024,
+   "units": 19238,
+   "unitKg": 3962.9,
+   "capKwh": 138.7,
+   "region": "North",
+   "rate": 0.036,
+   "eolYear": 2028,
+   "mats": {
+    "Lead": 0.6,
+    "Plastic": 0.08
+   },
+   "lowValue": false,
+   "brand": "XPeng"
+  },
+  {
+   "id": "Ami_2019",
+   "model": "Ami",
+   "oem": "Ola Electric",
+   "chem": "Zinc-air",
+   "my": 2019,
+   "sy": 2024,
+   "units": 15401,
+   "unitKg": 100.8,
+   "capKwh": 25.2,
+   "region": "West",
+   "rate": 0.049,
+   "eolYear": 2029,
+   "mats": {
+    "Copper": 0.08,
+    "Aluminium": 0.1,
+    "Iron": 0.15
+   },
+   "lowValue": true,
+   "brand": "Citroen"
+  },
+  {
+   "id": "L9_2020",
+   "model": "L9",
+   "oem": "MG Motor India",
+   "chem": "Flow batteries",
+   "my": 2020,
+   "sy": 2024,
+   "units": 8270,
+   "unitKg": 1120.0,
+   "capKwh": 33.6,
+   "region": "South",
+   "rate": 0.042,
+   "eolYear": 2030,
+   "mats": {
+    "Copper": 0.08,
+    "Aluminium": 0.1,
+    "Iron": 0.15
+   },
+   "lowValue": true,
+   "brand": "Li Auto"
+  },
+  {
+   "id": "I-PACE_2023",
+   "model": "I-PACE",
+   "oem": "Mahindra Electric",
+   "chem": "Calcium-ion",
+   "my": 2023,
+   "sy": 2024,
+   "units": 8750,
+   "unitKg": 426.7,
+   "capKwh": 64.0,
+   "region": "East",
+   "rate": 0.021,
+   "eolYear": 2033,
+   "mats": {
+    "Copper": 0.08,
+    "Aluminium": 0.1,
+    "Iron": 0.15
+   },
+   "lowValue": true,
+   "brand": "Jaguar"
+  }
+ ],
+ "recyclers": [
+  {
+   "id": "R1",
+   "name": "GreenCycle Recovery",
+   "city": "Noida",
+   "region": "North",
+   "capT": 900,
+   "usedPct": 62,
+   "recovery": 91,
+   "chems": [
+    "Nickel-manganese-cobalt",
+    "Nickel-cobalt-aluminum",
+    "Lithium-ion",
+    "Lithium-iron phosphate",
+    "Nickel-metal hydride"
+   ]
+  },
+  {
+   "id": "R2",
+   "name": "Aarav Metals",
+   "city": "Pune",
+   "region": "West",
+   "capT": 1200,
+   "usedPct": 48,
+   "recovery": 89,
+   "chems": [
+    "Nickel-manganese-cobalt",
+    "Lithium-iron phosphate",
+    "Lithium-titanate",
+    "Lead-acid",
+    "Sodium-ion"
+   ]
+  },
+  {
+   "id": "R3",
+   "name": "Deccan EcoCells",
+   "city": "Hyderabad",
+   "region": "South",
+   "capT": 700,
+   "usedPct": 71,
+   "recovery": 86,
+   "chems": [
+    "Lithium-iron phosphate",
+    "Lithium-titanate",
+    "Aluminum-ion",
+    "Calcium-ion",
+    "Flow batteries"
+   ]
+  },
+  {
+   "id": "R4",
+   "name": "Sagar Reclaim",
+   "city": "Chennai",
+   "region": "South",
+   "capT": 1500,
+   "usedPct": 55,
+   "recovery": 92,
+   "chems": [
+    "Lead-acid",
+    "Nickel-metal hydride",
+    "Nickel-manganese-cobalt",
+    "Lithium-ion",
+    "Zinc-air"
+   ]
+  },
+  {
+   "id": "R5",
+   "name": "Kalinga Recyclers",
+   "city": "Bhubaneswar",
+   "region": "East",
+   "capT": 600,
+   "usedPct": 39,
+   "recovery": 84,
+   "chems": [
+    "Lithium-iron phosphate",
+    "Lead-acid",
+    "Calcium-ion",
+    "Sodium-ion",
+    "Aluminum-ion"
+   ]
+  },
+  {
+   "id": "R6",
+   "name": "Vayu Battery Loop",
+   "city": "Ahmedabad",
+   "region": "West",
+   "capT": 1000,
+   "usedPct": 66,
+   "recovery": 90,
+   "chems": [
+    "Nickel-cobalt-aluminum",
+    "Nickel-manganese-cobalt",
+    "Lithium-sulfur",
+    "Solid-state",
+    "Lithium-titanate"
+   ]
+  },
+  {
+   "id": "R7",
+   "name": "Himal Circular",
+   "city": "Dehradun",
+   "region": "North",
+   "capT": 450,
+   "usedPct": 33,
+   "recovery": 82,
+   "chems": [
+    "Lead-acid",
+    "Nickel-metal hydride",
+    "Flow batteries",
+    "Zinc-air",
+    "Magnesium-ion"
+   ]
+  },
+  {
+   "id": "R8",
+   "name": "Bengal Resource Co.",
+   "city": "Kolkata",
+   "region": "East",
+   "capT": 800,
+   "usedPct": 52,
+   "recovery": 88,
+   "chems": [
+    "Nickel-manganese-cobalt",
+    "Lithium-ion",
+    "Lithium-iron phosphate",
+    "Calcium-ion",
+    "Lithium-titanate"
+   ]
+  }
+ ],
+ "prices": {
+  "Nickel": 1450,
+  "Cobalt": 2900,
+  "Lithium": 1500,
+  "Manganese": 180,
+  "Copper": 780,
+  "Aluminium": 210,
+  "Iron": 35,
+  "Lead": 190,
+  "Plastic": 12
+ }
+}
